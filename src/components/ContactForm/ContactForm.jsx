@@ -40,12 +40,6 @@ export default class ContactForm extends Component {
     resetForm = () => {
         this.setState({ name: "", number: "" });
     };
-    // finder = (e) => {
-    //     const value = e.target.value.toLowerCase();
-    //     const filterContact = contacts.filter(contact => {
-    //         return contact.name.toLowerCase().includes(value);
-    //     });
-    // }
 
     render() {
         const { name } = this.state;
